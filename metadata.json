@@ -1,0 +1,6 @@
+{
+  "name": "Konkurrenceevne HHX",
+  "description": "Interaktiv applikation til HHX elever om konkurrenceevneteorier: Priskonkurrenceevne, Strukturel konkurrenceevne og Porters Diamant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
