@@ -55,7 +55,7 @@ export default function StructuralCompetitiveness() {
     love: 85
   });
 
-  const avgScore = Object.values(scores).reduce((a, b) => a + b, 0) / 6;
+  const avgScore = (scores.uddannelse + scores.forskning + scores.infrastruktur + scores.service + scores.finansiering + scores.love) / 6;
 
   let status = "";
   let statusColor = "";

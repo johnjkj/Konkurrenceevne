@@ -1,6 +1,4 @@
-import { motion } from 'motion/react';
 import { useState } from 'react';
-import { TrendingDown, TrendingUp, DollarSign, Activity } from 'lucide-react';
 
 export default function PriceCompetitiveness() {
   const [wages, setWages] = useState(50);

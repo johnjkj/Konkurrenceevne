@@ -7,7 +7,6 @@ import { useState } from 'react';
 import PriceCompetitiveness from './components/PriceCompetitiveness';
 import StructuralCompetitiveness from './components/StructuralCompetitiveness';
 import PortersDiamond from './components/PortersDiamond';
-import { LineChart, LayoutGrid, Diamond } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('price');
